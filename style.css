@@ -1,0 +1,44 @@
+.cs-wrap {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cs-wrap form {
+    width: 398px;
+}
+.cs-wrap form input {
+    width: 260px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.cs-wrap form input:focus {
+    border: 1px solid #03A9F4;
+    outline: none;
+}
+.cs-wrap form button {
+    padding: 11px 15px;
+    background-color: #03A9F4;
+    border: 1px solid #03A9F4;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.cs-wrap h5 {
+    display: none !important;
+}
+.cs-wrap label {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.cs-wrap label a {
+	display: none;
+}
+.cs-wrap label.error {
+	color: red;
+}
+.cs-wrap label.valid {
+	color: green;
+}
